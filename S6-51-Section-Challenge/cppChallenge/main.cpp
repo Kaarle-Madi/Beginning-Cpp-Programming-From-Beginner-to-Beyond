@@ -20,14 +20,14 @@ int main()
     sum_room = (total_cost_small + total_cost_large);
     sum_room_tax = (total_cost_small + total_cost_large)*tax_rate;
 
-    cout << "\tNumber of small room: " << small_room << endl;
-    cout << "\tNumber of Large room: " << large_room << endl;
+    cout << "\t" << "Number of small room: " << small_room << endl;
+    cout << "\t" << "Number of Large room: " << large_room << endl;
 
-    cout << "\tPrice per small room $" << price_small_room << endl;
-    cout << "\tPrice per large room $" << price_large_room << endl;
+    cout << "\t" << "Price per small room $" << price_small_room << endl;
+    cout << "\t" << "Price per large room $" << price_large_room << endl;
 
-    cout << "\tCost: $" << sum_room << endl;
-    cout << "\tTax: $" << sum_room_tax << endl;
+    cout << "\t" << "Cost: $" << sum_room << endl;
+    cout << "\t" << "Tax: $" << sum_room_tax << endl;
     cout << "============================================================" << endl;
     cout << "\t" << "Total estimate: $" << sum_room + sum_room_tax << endl;
     cout << "\t" << "This estimate is valid for 30 days" << endl;
