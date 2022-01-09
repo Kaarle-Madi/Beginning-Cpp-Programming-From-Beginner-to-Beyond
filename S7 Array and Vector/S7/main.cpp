@@ -36,6 +36,10 @@ cout << "\n" << "Third score at index 2: " << test_scores[2] << endl;
 cout << "\n" << "Fourth score at index 3: " << test_scores[3] << endl;
 cout << "\n" << "Fifth score at index 4: " << test_scores[4] << endl;
 
+cout << "\nNotice what the value of array name is: " << test_scores << endl;
+//You get some hexadecimal number.
+//That number is actually the memory address or the storage location where the array is located.
+
 
 
 return 0;
