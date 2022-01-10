@@ -52,12 +52,12 @@ vector <int> vectorTest {1,2,3,4};
     cout << "Update {1} place: ";
     cin >> vectorTest.at(1);
 
-    cout << "Enter to add element: ";
+    cout << "Enter to push_back: ";
     cin >> add_element;
     vectorTest.push_back(add_element);
 
 
-    cout << "Enter one more element: ";
+    cout << "Enter one more to push_back: ";
     cin >> add_element;
     vectorTest.push_back(add_element);
 
