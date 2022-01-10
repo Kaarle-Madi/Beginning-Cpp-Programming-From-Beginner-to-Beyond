@@ -17,6 +17,7 @@ vector <int> vectorTest {1,2,3,4};
     cout << vectorTest[2] << endl;
     cout << vectorTest[3] << endl;
     */
+    cout << "------VECTOR-------------------------------------------" << endl;
     cout << "cout vector" << endl;
     cout << vectorTest.at(0) << endl;
     cout << vectorTest.at(1) << endl;
