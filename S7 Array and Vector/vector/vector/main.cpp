@@ -50,9 +50,11 @@ cout << "vector <int> vectorTest {1,2,3,4};" << endl;
 
     cout << "Update {0} place: ";
     cin >> vectorTest.at(0);
+    //update example - vectorTest.at(0) = 100;
 
     cout << "Update {1} place: ";
     cin >> vectorTest.at(1);
+    //update example - vectorTest.at(0) = 100;
 
     int add_element {0};
     cout << "Enter to push_back: ";
@@ -63,6 +65,7 @@ cout << "vector <int> vectorTest {1,2,3,4};" << endl;
     cout << "Enter one more to push_back: ";
     cin >> add_element;
     vectorTest.push_back(add_element);
+
 
     cout << "element in {0}: " << vectorTest.at(0) << " (Updated element)" << endl;
     cout << "element in {1}: " << vectorTest.at(1) << " (Updated element)" << endl;
